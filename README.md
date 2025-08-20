@@ -12,7 +12,11 @@ const data = [
   { date: '2021-12-05', value: 50 },
 ];
 
-const groupedData = groupByDate(data, 'date');
+const config = {
+    key: 'date',//默认是date，可以自定义，date的话可以不传config
+}
+
+const groupedData = groupByDate(data, config);
 
 console.log(groupedData);
 ```
