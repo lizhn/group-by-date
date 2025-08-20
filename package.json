@@ -1,0 +1,31 @@
+{
+  "name": "group-by-date",
+  "private": false,
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "description": "Group an array of objects by date",
+  "keywords": [
+    "array",
+    "group",
+    "group by date",
+    "date"
+  ],
+  "author": "lizheng",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "dayjs": "^1.11.13"
+  },
+  "scripts": {
+    "watch": "nodemon"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "rollup": "^4.46.3"
+  }
+}
